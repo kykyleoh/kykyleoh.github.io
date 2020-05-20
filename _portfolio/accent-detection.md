@@ -8,7 +8,7 @@ collection: portfolio
 <p>This project was done as a final individual requirement for Machine Learning class in AIM Msc Data Science. In this project, I apply multiple transformations to sound data and convert this to data that is readable by traditional machine learning tools.</p>
 
 <h2>Note:</h2>
-<p>Most of the following is written as a technical report, and as such contains a significant amount of code. If you're interested in the methodoloy and results, I highly recommend browsing through the presentation deck instead.</p>
+<p>Most of the following is written as a technical report, and as such contains a significant amount of code. If you're interested in the methodoloy and results, <b>I highly recommend browsing through the presentation deck instead.</b></p>
 
 The presentation can be found here: [pdf](/files/Say-What-accent-detection.pdf)
 
