@@ -14,7 +14,7 @@ collection: portfolio
 
 # The Age of Incognito: Utilizing Big D in the Adult Film Industry
 
-Carlo Angela Z. Cordero, Criselle Angela M. David, Gemille Isabel Gloria, Kyle Mathew P. Ong <br>
+Carlo Angelo Z. Cordero, Criselle Angela M. David, Gemille Isabel Gloria, Kyle Mathew P. Ong <br>
 MSDS 2020
 
 # 1 Executive Summary
