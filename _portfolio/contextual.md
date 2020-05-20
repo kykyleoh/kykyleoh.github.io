@@ -1,5 +1,5 @@
 ---
-title: "Con | Textual"
+title: "ConTextual"
 excerpt: "A deep dive into fake news and its effect on human interpratation through the use of deep transfer learning.<br/><img src='/images/contextual/contextual-titlecard.png'>"
 collection: portfolio
 ---
