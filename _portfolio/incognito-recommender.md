@@ -9,6 +9,8 @@ collection: portfolio
 <h2>Acknowledgements</h2>
 <p>This project was done with my teammates Criselle David, Gem Gloria, and Janlo Cordero.</p>
 
+<h2>PDF Report</h2>
+<p>You may also view a PDF version of this report. I'd recommend going through the presentation deck if you want a more visual overview of the methodology and results that we garnered. In this case, the PDF is also censored for explicit terms. It's available in this link: [Big D in the Adult Film Industry](/files/big-data-adult-film-industry.pdf)</p>
 
 # The Age of Incognito: Utilizing Big D in the Adult Film Industry
 
