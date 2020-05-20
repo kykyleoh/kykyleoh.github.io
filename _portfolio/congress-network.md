@@ -9,7 +9,7 @@ collection: portfolio
 
 <h2>Report</h2>
 This report is available in two formats.
-The Journal Article can be viewed here: [pdf](/files/A-Network-Analysis-on-Partisanship-in-Congressional-Rollcall-Votes.pdf)
+The Journal Article can be viewed here: [pdf](/files/A-Network-Analysis-on-Partisanship-in-Congressional-Rollcall-Votes.pdf)<br/>
 The presentation deck can be viewed here <b>(recommended)</b>: [pdf](/files/congress-network.pdf)
 
 <h2>Acknowledgements</h2>
