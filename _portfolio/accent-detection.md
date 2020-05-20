@@ -10,7 +10,7 @@ collection: portfolio
 <h2>Note:</h2>
 <p>Most of the following is written as a technical report, and as such contains a significant amount of code. If you're interested in the methodoloy and results, I highly recommend browsing through the presentation deck instead.</p>
 
-The presentation can be found here: [Say What? Accent Detection with Machine Learning](/files/Say-What-accent-detection.pdf)
+The presentation can be found here: [pdf](/files/Say-What-accent-detection.pdf)
 
 # Executive Summary:
 
