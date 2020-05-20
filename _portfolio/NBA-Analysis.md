@@ -1,15 +1,13 @@
 ---
 title: "Unsupervised Clustering Analysis of NBA Players"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "An analysis of the changes in the NBA landscape through the years using unsurpervised clustering methods.<br/><img src='/images/nba-analysis/Lab_Lab 5_NBA Clustering_35_0.png'>"
 collection: portfolio
 ---
 
-
-<h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Imports-and-Functions" data-toc-modified-id="Imports-and-Functions-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Imports and Functions</a></span></li><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Dimensionality-Reduction-(PCA)" data-toc-modified-id="Dimensionality-Reduction-(PCA)-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Dimensionality Reduction (PCA)</a></span></li><li><span><a href="#Clustering-Model-(K-Means)" data-toc-modified-id="Clustering-Model-(K-Means)-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Clustering Model (K-Means)</a></span></li><li><span><a href="#Analysis" data-toc-modified-id="Analysis-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Analysis</a></span></li><li><span><a href="#Players-per-3-Point-Cluster-(clusters-2,-3,-5)" data-toc-modified-id="Players-per-3-Point-Cluster-(clusters-2,-3,-5)-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Players per 3 Point Cluster (clusters 2, 3, 5)</a></span></li></ul></div>
+<h1>Overview</h1>
+<p>This technical report was created for our Data Mining and Wrangling class in AIM MSDS. In particular, this was done during our 2nd semester of class, as one of the required lab reports. In this report, we sought to understand how the landscape of the NBA has changed over the decades, and specifically if we are able to generalize certain player stereotypes throughout the years. We analyze these stereotypes, as well as the changes among them, using Unsupervised Clustering and apply Principal Component Analysis to extract meaningful features from the data. At the end, we also take a look at the evolution of 3-point shooters and the dramatic change that the 3-point shot has introduced to the NBA gameplay (as part of my personal interest, mostly).</p>
 
 ## Imports and Functions
-
 
 ```python
 import sqlite3
