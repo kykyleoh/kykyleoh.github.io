@@ -7,6 +7,9 @@ collection: portfolio
 <h1>Overview</h1>
 <p>This technical report was created for our Data Mining and Wrangling class in AIM MSDS. In particular, this was done during our 2nd semester of class, as one of the required lab reports. In this report, we sought to understand how the landscape of the NBA has changed over the decades, and specifically if we are able to generalize certain player stereotypes throughout the years. We analyze these stereotypes, as well as the changes among them, using Unsupervised Clustering and apply Principal Component Analysis to extract meaningful features from the data. At the end, we also take a look at the evolution of 3-point shooters and the dramatic change that the 3-point shot has introduced to the NBA gameplay (as part of my personal interest, mostly).</p>
 
+<h2>Acknowledgements</h2>
+<p>This analysis was done together with my Lab partner, Lance Aven Sy.</p>
+
 ## Imports and Functions
 
 ```python
