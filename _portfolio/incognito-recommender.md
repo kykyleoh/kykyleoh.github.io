@@ -1,6 +1,6 @@
 ---
 title: "The Age of Incognito"
-excerpt: "Building recommender systems without transactional-level data in the age of data privacy .<br/><img src='/images/incognito-recommender/incognito-recommender-titlecard.jpg'>"
+excerpt: "Building recommender systems without transactional-level data in the age of data privacy .<br/><img src='/images/incognito-recommender/incognito-recommender-titlecard.png'>"
 collection: portfolio
 ---
 
