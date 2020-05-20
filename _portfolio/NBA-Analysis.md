@@ -1,6 +1,6 @@
 ---
 title: "Unsupervised Clustering Analysis of NBA Players"
-excerpt: "An analysis of the changes in the NBA landscape through the years using unsurpervised clustering methods.<br/><img src='/images/nba-analysis/Lab_Lab 5_NBA Clustering_35_0.png'>"
+excerpt: "An analysis of the changes in the NBA landscape through the years using unsurpervised clustering methods.<br/><img src='/images/nba-analysis/Lab_Lab 5_NBA Clustering_35_0.png' width=200px>"
 collection: portfolio
 ---
 
