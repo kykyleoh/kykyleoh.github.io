@@ -198,7 +198,7 @@ def plot_internal(inertias, chs, iidrs, scs):
     return fig
 ```
 
-# EDA (Kyle)
+# Exploratory Data Analysis (EDA)
 
 
 ```python
@@ -239,7 +239,7 @@ ax.set_title('3 Point Attempts and Percentage 1979-2019');1
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_11_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_11_0.png)
 
 
 In the plot above, we can see that during the introduction of the 3 point line <font color='green'>1979-80 Season</font>, 3 point accuracy was very high but this was limited to a very small sample size. The <font color='red'>red dotted line</font> during the 1994-95 and 1996-97 seasons indicate the 3-year period wherein the NBA shortened the 3 point line in order to increase volume and usage of the 3 pointer in the NBA game. Lastly, we can see the rapid increase in both the attempts and accuracy of the 3 pointer during the 2014-15 season onwards. This is marked by the <font color='blue'>blue</font> dotted line that indicates the year that Steph Curry won his first MVP season and the Golden State Warriors dominated the NBA to win their first championship in 50 years. This is a turning point in the 3 point arena of the game, as most teams in the current NBA cannot survive without a good 3 point shooter, and this is reflected in the marked increase in both volume and accuracy of 3 point shooters in the league since then. 
