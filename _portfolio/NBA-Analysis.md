@@ -877,7 +877,7 @@ ax.set_title('Plot of Eigenvectors against first 2 PCs');
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_35_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_35_0.png)
 
 
 In the plot of the feature vectors above, we can see that there are relationships among the feature vectors that are of interest in the context of an NBA game:
@@ -924,7 +924,7 @@ X_new = project(X_rotated, min_pcs)
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_39_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_39_0.png)
 
 
 ## Clustering Model (K-Means)
@@ -949,7 +949,7 @@ plot_internal(out['inertias'], out['chs'], out['iidrs'], out['scs']);
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_43_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_43_0.png)
 
 
 The optimal number of k chosen is 4. This number is at the elbow point of the SSE and Inter-Intra cluster range, as well as retaining a high CH score, and Silhouette Coefficient. We proceed with clustering the data using KMeans with an optimal number of 4 clusters as its hyperparameter.
@@ -982,7 +982,7 @@ ax.set_title('Number of Players per Cluster (k=4)');
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_47_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_47_0.png)
 
 
 
@@ -995,7 +995,7 @@ ax.set_title('TSNE Projection of Clusters');
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_48_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_48_0.png)
 
 
 
@@ -1028,7 +1028,7 @@ for i, ax in enumerate(fig.axes):
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_52_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_52_0.png)
 
 
 From the cursory view given by the wordclouds, we can immediately see two distinct clusters: star players and centers. These are the clusters on the right hand side as denoted by the star cluster of Chris Paul, Dwyane Wade, Kevin Durant, and Lebron James, and the cluster of centers/bigs as denoted by LaMarcus Aldridge, Brook Lopez, Dwight Howard, Pau Gasol, and others. The other two clusters seem to be a mix of guards and forwards that are perhaps clustered based on their skill level as the cluster with Jared Dudley, J.J. Barea, C.J. Miles and others are known bench players or 6th man players for different teams. To get a clearer picture of the description per cluster, we can take a look at their average stats per player.
@@ -1527,7 +1527,7 @@ X2019_new = project(X2019_rotated, min_pcs2019)
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_68_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_68_0.png)
 
 
 In clustering the 2019 stats, we do dimensionality reduction through Principal Component Analysis in order to get the nuumber of PCs that will explain 80% of our total explained variance. This is similar to the one for the aggregated 10 year player cluster as we will be using 5 principal components.
@@ -1546,7 +1546,7 @@ plot_internal(out['inertias'], out['chs'], out['iidrs'], out['scs']);
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_72_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_72_0.png)
 
 
 
@@ -1607,7 +1607,7 @@ for i, ax in enumerate(fig.axes):
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_78_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_78_0.png)
 
 
 
@@ -1832,7 +1832,7 @@ plot_internal(out['inertias'], out['chs'], out['iidrs'], out['scs']);
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_87_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_87_0.png)
 
 
 Based on the internal validation criteria above, we select 6 as the optimal number of clusters. This is chosen as the elbow point of the inter-intra cluster range and SSE, as well as maintaining a high silhouette score (although the difference between the max and min Silhouette score is only ~0.5).
@@ -2291,7 +2291,7 @@ ax.set_title('TSNE Projection of Clusters');
 ```
 
 
-![png](Lab_Lab%205_NBA%20Clustering_files/Lab_Lab%205_NBA%20Clustering_100_0.png)
+![png](/images/nba-analysis/Lab_Lab%205_NBA%20Clustering_100_0.png)
 
 
 Lastly, when we plot the clusters on the tSNE representation of the dataset, we see that there is a very good separation between the clusters as there are no overlaps that can be seen. In the lower left quadrant, we see the very elite shooters, with one outlier (James Harden). In testing out the different values for k, it showed that even at different values of k, James Harden still clusters on his own as his stats are above and beyond the others for this season.
