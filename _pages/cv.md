@@ -11,49 +11,42 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* A.B. Management Economics Minor in Decision Science, Ateneo de Manila University, 2012
+* Certificate in Chinese Language (Advanced Level 1), Tsinghua University, Beijing, 2013
+* M.Sc. in Data Science, Asian Institute of Management, 2020 (Expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-2019: Apsoft, Inc. - VP, Operations
+  * Handled branch operations, project management, and systems intergration for the largest POS solutions company in the Philippines.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2015-2017: NuWorks Interactive Labs - Account Manager
+  * Handling a team of account executives to delivery digital and above-the-line advertising campaigns for local and international brands.
+
+* 2014-2015: Standard Chartered Philippines - Management Trainee
+  * Bank Operations Department
+
+* 2013-2014: Impact Training and Consultancy - Junior Project Manager
+  * Creation, Planning, and Execution of below-the-line campaigns for Proctor & Gamble.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+  * Pandas
+  * Numpy
+  * Matplotlib
+  * Tensorflow
+  * Pytorch
+* Deep Learning
+* Statistical Modelling
+* SQL
+* Basic Data Engineering
+* AWS Ecosystem
+* Basic Web Development
+* Advertising
+* Business Development
+* Project Management
 
-Publications
+Portfolio
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* You can find some of my sample work [here](https://kykyleoh.github.io/portfolio/)
