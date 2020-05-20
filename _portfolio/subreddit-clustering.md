@@ -181,7 +181,7 @@ print(f'Mean Title Character Length: {round(df.title_len.mean(), 2)}');
 
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_11_1.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_11_1.png)
 
 
 Aside from the distribution of the title lengths and character lengths, since the dataset consists of posts from subreddits and these are user-generated meaning that these follow human speech patterns, we assume that this would follow <b>Zipf's Law</b>. This would determine that the frequency of the top 20 words would account for 80% of the total frequency of words and thus would manifest in a power law when plotted on a log-log scale. The dataset used here would be the Lemmatized titles with stop words being removed. In order to achieve this, we use `CountVectorizer` package to automatically get the counts of each word and remove the english stop words; we then pass this into a dataframe and collect the data from there.
@@ -214,7 +214,7 @@ ax[1].set_xlabel('(Log) Word Rank');
 ```
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_14_0.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_14_0.png)
 
 
 As suspected, the distribution of the top 1,000 words follows a power law curve when plotted on the log-log scale and gives us an idea of the frequency of the themes. Subreddits typically follow a post pattern wherein each post would follow a specific format, i.e. for the subreddit `todayilearned`, each post typically starts with `TIL` followed by the text. Combined with the knowledge that the word distribution follows a power law curve, we may assume that the top 100 or 200 words in the titles would account for the themes of the posts.
@@ -239,7 +239,7 @@ plt.show()
 ```
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_17_0.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_17_0.png)
 
 
 Based on this word cloud, some of the top terms are "til" and "trump". "til" is the specific pattern used for topic headers for `reddit.com/r/todayilearned` subreddit, as such we can expect that there should be a cluster of subreddit topics coming from this subreddit. As "trump" is also in the top terms, we expect that there would be a politically-relevant cluster of themes perhaps focused on the 2016 presidential campaign, United States President, Republican party, or other similar topics.
@@ -310,7 +310,7 @@ plt.xlabel('Number of Components');
 
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_23_1.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_23_1.png)
 
 
 As we've seen in the EDA, natural human language follows a Zipf's Law or a power law curve. As such, we assume that the top occurring words in the document, without stop words, would be most predictive in terms of the topic or theme that the title belongs to. We deem that an explained variance of around 25% would be sufficient in our analysis to be able to determine the topic/theme for clustering.
@@ -332,7 +332,7 @@ Since we are left with 500 components, we use the <b>t-distributed Stochastic Ne
 ```
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_27_0.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_27_0.png)
 
 
 ## Clustering
@@ -359,7 +359,7 @@ ax.set_ylabel(r'$\Delta$');
 ```
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_31_0.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_31_0.png)
 
 
 In order to determine the optimal number of clusters, we use the <b>Elbow Method</b> which computes the largest differences in the sum of squares distance between different values of k. The maximum drop is used as the optimal number of k clusters.
@@ -388,7 +388,7 @@ ax.legend();
 
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_33_1.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_33_1.png)
 
 
 From the result of the Elbow Test, the optimal number of clusters is 6. We visualize this by using the `scipy` library called `fcluster` which takes the cluster from our linkage created previously and extrapolates the clustering based on a user-determined number of clusters in the parameter `t`.
@@ -412,7 +412,7 @@ print(Counter(y));
 
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_35_1.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_35_1.png)
 
 
 The clustering using hierarchical clustering with Wards method seems to prefer clustering all the topics into one cluster only. This could be the result of having a lot of the topics be very diverse and thus the clustering cannot detect a definitive cluster for this group of topics. Below we take a look at the top topics or terms for each cluster to perform a sanity check on the clusters.
@@ -782,7 +782,7 @@ plt.show()
 ```
 
 
-![png](DMW%20Lab%20Reddit_files/DMW%20Lab%20Reddit_49_0.png)
+![png](/images/subreddit-clustering/DMW%20Lab%20Reddit_49_0.png)
 
 
 Based on the cohesion score above, the optimal number of k clusters is 10. Running the NMF model below with 10 clusters, we get the topics:

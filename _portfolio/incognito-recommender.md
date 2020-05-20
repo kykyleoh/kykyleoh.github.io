@@ -5,7 +5,7 @@ collection: portfolio
 ---
 
 <h1>Overview</h1>
-<p>The following project was the output for the final project requirement in our Big Data and Cloud Computing class for MSc in Data Science. The challenge for the project was in the context of the increasing need for data privacy in online transactions and activities. This project was presented to the public during the Big Data Presentations held in Asian Institute of Management on December 5, 2019.</p>
+<p>The following project was the output for the final project requirement in our Big Data and Cloud Computing class for MSc in Data Science. The challenge for the project was in the context of the increasing need for data privacy in online transactions and activities. This project was presented to the public during the Big Data Presentations held in Asian Institute of Management on December 5, 2019. <b>This report contains some explicit language pertaining to adult videos</b>. For a censored version, see the pdf report below.</p>
 
 <h2>Acknowledgements</h2>
 <p>This project was done with my teammates Criselle David, Gem Gloria, and Janlo Cordero.</p>
@@ -16,7 +16,7 @@ collection: portfolio
 The presentation is available here: [pdf](/files/big-data-adult-film-industry.pdf)
 
 
-</br>
+
 # The Age of Incognito: Utilizing Big D in the Adult Film Industry
 
 Carlo Angelo Z. Cordero, Criselle Angela M. David, Gemille Isabel Gloria, Kyle Mathew P. Ong <br>
