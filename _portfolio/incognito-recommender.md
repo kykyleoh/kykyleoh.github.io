@@ -3,6 +3,7 @@ title: "The Age of Incognito"
 excerpt: "Building recommender systems without transactional-level data in the age of data privacy .<br/><img src='/images/incognito-recommender/incognito-recommender-titlecard.png'>"
 collection: portfolio
 ---
+
 <h1>Overview</h1>
 <p>The following project was the output for the final project requirement in our Big Data and Cloud Computing class for MSc in Data Science. The challenge for the project was in the context of the increasing need for data privacy in online transactions and activities. This project was presented to the public during the Big Data Presentations held in Asian Institute of Management on December 5, 2019.</p>
 
@@ -10,8 +11,12 @@ collection: portfolio
 <p>This project was done with my teammates Criselle David, Gem Gloria, and Janlo Cordero.</p>
 
 <h2>PDF Report</h2>
-<p>You may also view a PDF version of this report. I'd recommend going through the presentation deck if you want a more visual overview of the methodology and results that we garnered. In this case, the PDF is also censored for explicit terms. It's available in this link: [Big D in the Adult Film Industry](/files/big-data-adult-film-industry.pdf)</p>
+<p>You may also view a PDF version of this report. I'd recommend going through the presentation deck if you want a more visual overview of the methodology and results that we garnered. In this case, the PDF is also censored for explicit terms.</p>
 
+The presentation is available here: [Big D in the Adult Film Industry](/files/big-data-adult-film-industry.pdf)
+
+
+</br>
 # The Age of Incognito: Utilizing Big D in the Adult Film Industry
 
 Carlo Angelo Z. Cordero, Criselle Angela M. David, Gemille Isabel Gloria, Kyle Mathew P. Ong <br>
