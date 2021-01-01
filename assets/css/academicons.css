@@ -21,6 +21,13 @@ h1 {
 	
 }
 
+.center-it {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .ai {
 	display:inline-block;
 	font:normal normal normal 14px/1 Academicons;
